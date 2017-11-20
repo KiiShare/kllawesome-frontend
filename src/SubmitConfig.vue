@@ -54,7 +54,7 @@ export default {
   name: 'SubmitConfig',
   data () {
     return {
-      postEndpoint: 'https://example.com'
+      postEndpoint: 'http://api.kllawesome.com'
     }
   }
 }
