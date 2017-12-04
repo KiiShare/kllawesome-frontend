@@ -9,14 +9,14 @@ Vue.use(VueRouter);
 const routes = [
   { path: '/', component: App },
   { path: '/configs/submit', component: SubmitConfig },
-]
+];
 
 const router = new VueRouter({
-  routes,
+  routes: routes,
   mode: 'history',
-})
+});
 
 new Vue({
   el: '#app-wrapper',
-  router
-})
+  router: router,
+});

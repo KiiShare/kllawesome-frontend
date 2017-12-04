@@ -52,7 +52,7 @@
 <script>
 export default {
   name: 'SubmitConfig',
-  data () {
+  data: function() {
     return {
       postEndpoint: 'http://api.kllawesome.com'
     }

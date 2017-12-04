@@ -12,16 +12,16 @@
 </template>
 
 <script>
-import SubmitConfig from './SubmitConfig.vue'
+import SubmitConfig from './SubmitConfig.vue';
 export default {
   name: 'App',
   components: {
-    SubmitConfig
+    SubmitConfig: SubmitConfig,
   },
-  data () {
+  data: function() {
     return {
-      msg: 'KLL Awesome Prototype'
-    }
+      msg: 'KLL Awesome Prototype',
+    };
   }
 }
 </script>
